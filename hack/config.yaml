@@ -7,5 +7,7 @@ gfcli:
     tagPrefixes:
       - my.image.pub/my-app
   build:
-    output: "./bin/"
+    name: "msadv"
+    path: "./bin"
     dumpEnv: true
+    version: "v1.0.0"
